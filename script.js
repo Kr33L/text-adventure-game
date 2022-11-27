@@ -3,21 +3,6 @@ const context = canvas.getContext("2d");
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
 
-//Objective
-//We would like you to create a simple text based adventure game where the objective is for a player to progress through a linear series of rooms without running out of lives
-//rules:
-//1. The player starts with 3 heart
-//2. each room has flavour text, a question and a set of answers to choose from
-//3. if the player answers correctly they move to the next room
-//4. if the player answers incorrectly they lose a heart
-//5. if the player runs out of hearts the game ends
-//6. if the player reaches the final room they win the game
-
-//some answers will result in instant death
-//inventory system
-//branching paths (multiple answers to a question)
-//saving and loading
-
 let hearts = 3;
 let room = 0;
 let inventory = [];
